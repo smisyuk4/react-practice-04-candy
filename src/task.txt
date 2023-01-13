@@ -1,0 +1,39 @@
+ідея в тому щоб зробити меню як на готовому сайті, але за допомогою реакт
+https://www.candywarehouse.com/
+
+<header>
+    <div>
+        <logo>
+            warehouse
+        </logo>
+
+        <form>
+            <input>
+
+            <button>search</button>
+        </form>
+
+        <div>
+            //sort buttons by colors products
+            <button>blue</button>
+            <button>pink</button>
+            <button>green</button>
+            <button>red</button>
+            <button>orange</button>
+        </div>
+    </div>
+
+    <nav>
+        <a>bulk-candy</a>
+        <a>types-candy</a>
+        <a>candy-flavors</a>
+        <a>candy-shapes</a>
+        <a>candy-themes</a>
+        <a>candy-occasions</a>
+        <a>candy-holidays</a>
+        <a>international-candy</a>
+        <a>candy-brands</a>
+        <a>candy-toys</a>
+        <a>discount-candy-sale</a>
+    </nav>
+</header>
