@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom"
 import {
   Home,
   BulkCandy,
+  BulkCandyMainPage,
   TypesCandy,
   CandyFlavors,
   CandyShapes,
@@ -11,7 +12,8 @@ import {
   InternationalCandy,
   CandyBrands,
   CandyToys,
-  DiscountCandySale
+  DiscountCandySale,
+  Error
 } from "pages";
 
 import { Header } from "components/Header";
@@ -25,6 +27,7 @@ export const App = () => {
         <Route path="/" element={<Header />}>
           <Route index element={<Home/>}/>
           <Route path="bulk-candy" element={<BulkCandy />}>
+            <Route index element={<BulkCandyMainPage/>}/>
             <Route path="bulk-wraped-candy" element={<BulkWrappedCandy />}/>
             <Route path="bulk-unwrapped-candy" element={<BulkUnwrappedCandy />}/>
             <Route path="bulk-candy-favors" element={<BulkCandyFavors />}/>
@@ -40,6 +43,7 @@ export const App = () => {
           <Route path="candy-brands" element = {<CandyBrands/>}/>
           <Route path="candy-toys" element = {<CandyToys/>}/>
           <Route path="discount-candy-sale" element={<DiscountCandySale/>}/>
+          <Route path="*" element={<Error/>} />
         </Route>
       </Routes>
     </>

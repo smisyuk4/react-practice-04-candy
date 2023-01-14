@@ -1,7 +1,7 @@
 export const CandyBuffet = () => {
   return (
     <section>
-      <h2>Candy Buffet</h2>
+      <h3>Candy Buffet</h3>
       <p>
         If you're putting together a candy buffet table for your next event,
         you've come to the right place. Here at Candy Warehouse, we offer candy

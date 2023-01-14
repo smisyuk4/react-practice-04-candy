@@ -1,7 +1,7 @@
 export const BulkCandyFavors = () => {
   return (
     <section>
-      <h2>Bulk Candy Favors</h2>
+      <h3>Bulk Candy Favors</h3>
       <p>
         Nothing makes a party more memorable that the bulk candy favors they
         received for coming. At Candy Warehouse, you can choose from hundreds of

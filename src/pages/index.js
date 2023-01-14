@@ -1,5 +1,5 @@
 export * from './home';
-export * from './BulkCandy/bulk-candy';
+export * from './BulkCandy';
 export * from './types-candy';
 export * from './candy-flavors';
 export * from './candy-shapes';
@@ -10,3 +10,4 @@ export * from './international-candy';
 export * from './candy-brands';
 export * from './candy-toys';
 export * from './discount-candy-sale';
+export * from './Error';

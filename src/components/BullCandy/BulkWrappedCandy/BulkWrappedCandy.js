@@ -1,7 +1,7 @@
 export const BulkWrappedCandy = () => {
   return (
     <section>
-      <h2>Bulk Wrapped Candy</h2>
+      <h3>Bulk Wrapped Candy</h3>
       <p>
         Buying bulk wrapped candy has never been easier. With just a few clicks,
         have wrapped chocolate and gummies shipped straight to your door. At

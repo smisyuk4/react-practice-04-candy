@@ -1,7 +1,7 @@
 export const BulkUnwrappedCandy = () => {
   return (
     <section>
-      <h2>Bulk Unwrapped Candy</h2>
+      <h3>Bulk Unwrapped Candy</h3>
       <p>
         Bulk unwrapped candy makes building a candy buffet a piece of cake. Just
         pour the gummies, Skittles, or jelly beans straight into the candy
