@@ -5,6 +5,7 @@ import {
   BulkCandyMainPage,
   TypesCandy,
   CandyFlavors,
+  ProductDetails,
   CandyShapes,
   CandyThemes,
   CandyOccasions,
@@ -34,7 +35,8 @@ export const App = () => {
             <Route path="candy-buffet" element={<CandyBuffet />}/>
           </Route>
           <Route path="types-candy" element={<TypesCandy/>}/>
-          <Route path="candy-flavors" element={<CandyFlavors/>}/>
+          <Route path="candy-flavors" element={<CandyFlavors />} />
+          <Route path="candy-flavors/:id" element={<ProductDetails/>} />
           <Route path="candy-shapes" element={<CandyShapes/>}/>
           <Route path="candy-themes" element={<CandyThemes/>}/>
           <Route path="candy-occasions" element={<CandyOccasions/>}/>

@@ -44,10 +44,40 @@ Bulk Candy
     Bulk Candy Favors
     Candy Buffet
 
+Candy Flavors
+    Bacon Candy
+    Butter Candy
+    Caramel Candy
+    Chamoy Candy
+    Chili Candy
+    Chocolate Candy
+    Cinnamon Candy
+    Coffee & Tea Candy
+    Cotton Candy
+    Floral Candy
+    Fruity Candy
+    Ginger Candy
+    Honey Candy
+    Ice Cream Candy
+    Licorice Candy
+    Liquor Candy
+    Marshmallow Candy
+    Mint Candy
+    Pumpkin Spice
+    Smores Candy
+    Soda Candy
+    Sour Candy
+    Tamarind Candy
+    Vanilla Candy
+
 
 Стилі
 https://emotion.sh/docs/install
 npm install --save @emotion/styled
+
+Іконки
+https://react-icons.github.io/react-icons/
+npm i react-icons
 
 Маршрутизація
 https://v5.reactrouter.com/web/example/basic
