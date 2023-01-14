@@ -37,3 +37,18 @@ https://www.candywarehouse.com/
         <a>discount-candy-sale</a>
     </nav>
 </header>
+
+Bulk Candy
+    Bulk Wrapped Candy
+    Bulk Unwrapped Candy
+    Bulk Candy Favors
+    Candy Buffet
+
+
+Стилі
+https://emotion.sh/docs/install
+npm install --save @emotion/styled
+
+Маршрутизація
+https://v5.reactrouter.com/web/example/basic
+npm install react-router-dom

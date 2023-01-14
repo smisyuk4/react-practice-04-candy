@@ -1,3 +1,3 @@
 export const TypesCandy = () => {
-  return <div>types-candy page</div>;
+  return <main>types-candy page</main>;
 };
