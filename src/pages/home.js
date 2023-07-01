@@ -1,3 +1,11 @@
 export const Home = () => {
-  return <main>home page</main>;
+  const tg = window.Telegram.WebApp;
+
+  const onClose = () => {
+    tg.onClose();
+  }
+  return (<div>
+          <main>home page</main>;
+          <button onClick={onClose}>Вийти</button>
+    </div>)
 };
