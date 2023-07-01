@@ -1,7 +1,7 @@
   const tg = window.Telegram.WebApp;
 export const Home = () => {
 
-   const user = tg.initDataUnsafe?.user,
+   const user = tg.initDataUnsafe?.user
 
   const onClose = () => {
     alert('close window')
